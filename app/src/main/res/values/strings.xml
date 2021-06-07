@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Friendzone</string>
+    <string name="button_label">Log-in</string>
+    <string name="name_hint">Name</string>
+    <string name="pass_hint">Password</string>
+    <string name="text_hint">Log-In</string>
+    <string name="log_in">LOG-IN</string>
+    <string name="button2_label">Log-Out</string>
+    <string name="button3_label">Sign-Up</string>
+    <string name="newname_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="verifypass_hint">Confirm Password</string>
+    <string name="button4_hint">Register</string>
+    <string name="retailername_hint">Name</string>
+    <string name="retaileremail_hint">Email</string>
+    <string name="retailerpass_hint">Password</string>
+    <string name="retailerconpass_hint">Confirm Password</string>
+    <string name="button5_hint">Register</string>
+    <string name="button6_hint">Sign Up As Retailer</string>
+    <string name="account_hint">Dont Have an Account?</string>
+    <string name="welcome_hint">Welcome To FriendZone</string>
+    <string name="usersignup_hint">Sign Up</string>
+    <string name="retailersignup_hint">Sign Up</string>
+    <string name="button7_hint">Login</string>
+    <string name="button8_hint">Login</string>
+    <string name="alreadyaccount1_hint">Already Have an Account?</string>
+    <string name="alreadyaccount2_hint">Already Have an Account?</string>
+    <string name="savename_hint">Name</string>
+    <string name="saveage_hint">Age</string>
+    <string name="savegender_hint">Gender</string>
+    <string name="savecity_hint">City</string>
+    <string name="savedesc_hint">Description</string>
+    <string name="cont_hint">Continue</string>
+    <string name="savephone_hint">Phone Number</string>
+</resources>

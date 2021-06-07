@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "18430730318",
+    "firebase_url": "https://friendzone-e23c3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "friendzone-e23c3",
+    "storage_bucket": "friendzone-e23c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18430730318:android:d00b10dc52611ba0c9231f",
+        "android_client_info": {
+          "package_name": "com.example.friendzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18430730318-jqkr4v8oq3eune8469ppfs8jeiaapq2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7_woYAN1FBOjd6lHNnS5UeYiv4GMsWc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18430730318-jqkr4v8oq3eune8469ppfs8jeiaapq2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
