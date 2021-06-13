@@ -4,130 +4,123 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    tools:context=".ChangeProfileActivity">
 
-    <TextView
-        android:id="@+id/ChangeBio"
+    <EditText
+        android:id="@+id/ChangeBio2"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="41dp"
         android:layout_marginLeft="41dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="41dp"
         android:layout_marginRight="41dp"
         android:ems="10"
         android:gravity="top"
-        android:text="Biodata"
+        android:inputType="textPersonName"
+        android:text="Bio"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Changephone" />
+        app:layout_constraintTop_toBottomOf="@+id/ChangeCity2" />
 
-    <TextView
-        android:id="@+id/ChangeName"
+    <EditText
+        android:id="@+id/ChangeName2"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="136dp"
         android:ems="10"
-        android:text="Nama"
+        android:inputType="textPersonName"
+        android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/Changephone"
+    <EditText
+        android:id="@+id/Changephone2"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="41dp"
         android:layout_marginRight="41dp"
         android:ems="10"
-        android:text="No HP"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/changeAge" />
-
-    <TextView
-        android:id="@+id/ChangeCity"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginRight="41dp"
-        android:ems="10"
-        android:text="Kota"
+        android:inputType="textPersonName"
+        android:text="Phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/changeAge" />
+        app:layout_constraintTop_toBottomOf="@+id/changeAge2" />
 
-    <TextView
-        android:id="@+id/changeAge"
+    <EditText
+        android:id="@+id/ChangeCity2"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="41dp"
         android:layout_marginRight="41dp"
         android:ems="10"
-        android:text="Umur"
+        android:inputType="textPersonName"
+        android:text="City"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ChangeName" />
+        app:layout_constraintTop_toBottomOf="@+id/Changephone2" />
+
+    <EditText
+        android:id="@+id/changeAge2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChangeName2" />
 
     <Button
-        android:id="@+id/Change"
+        android:id="@+id/Change2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="116dp"
         android:text="Change"
         app:backgroundTint="#ED4880"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/List"
+        android:id="@+id/Back2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
-        android:layout_marginBottom="64dp"
-        android:text="List Rentailer"
+        android:layout_marginBottom="60dp"
+        android:text="Back"
         app:backgroundTint="#ED4880"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/LogOut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
-        android:layout_marginBottom="16dp"
-        android:text="LogOut"
-        app:backgroundTint="#ED4880"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/ImageProfile"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="20dp"

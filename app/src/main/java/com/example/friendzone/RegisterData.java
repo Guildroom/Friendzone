@@ -58,8 +58,6 @@ public class RegisterData extends AppCompatActivity {
         fStore = FirebaseFirestore.getInstance();
         fAuth = FirebaseAuth.getInstance();
 
-        int genderID = Gender.getCheckedRadioButtonId();
-        GenderButton = findViewById(genderID);
 
         userID = fAuth.getCurrentUser().getUid();
         DocumentReference documentReference = fStore.collection("Users").document(userID);
@@ -75,6 +73,8 @@ public class RegisterData extends AppCompatActivity {
         Continue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int genderID = Gender.getCheckedRadioButtonId();
+                GenderButton = findViewById(genderID);
                 String Name = NameUser.getText().toString();
                 String Age = AgeUser.getText().toString();
                 String City = CityUser.getText().toString();

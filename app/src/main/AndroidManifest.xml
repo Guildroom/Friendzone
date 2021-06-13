@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Friendzone">
-        <activity android:name=".RetailerActivity"></activity>
+        <activity android:name=".ChangeProfileActivity"></activity>
+        <activity android:name=".RetailerActivity" />
         <activity android:name=".GirlFriendActivity" />
         <activity android:name=".BoyFriendActivity" />
         <activity android:name=".StartActivity" />
