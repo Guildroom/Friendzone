@@ -1,6 +1,7 @@
 package com.example.friendzone;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.View.OnClickListener;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,14 +33,15 @@ public class AdapterUser extends ArrayAdapter<UserList> {
         ImageView Image = ListAgent.findViewById(R.id.idIVimage);
         TextView Name = ListAgent.findViewById(R.id.Nama);
         TextView Bio = ListAgent.findViewById(R.id.Biografi);
+        String userID = userList.getID();
 
         Name.setText(userList.getFullName());
         Bio.setText(userList.getBio());
 
         ListAgent.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Toast.makeText(getContext(), "Item clicked is : " + userList.getFullName(), Toast.LENGTH_SHORT).show();
+            public void onClick(View view) {
+                view.getContext().startActivity(new Intent(view.getContext(), DetailAgent.class).putExtra("key",userID));
             }
         });
         return ListAgent;

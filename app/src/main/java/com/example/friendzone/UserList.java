@@ -1,6 +1,7 @@
 package com.example.friendzone;
 
 public class UserList {
+    private String ID;
     private String FullName;
     private String Bio;
     private String Retailer;
@@ -88,5 +89,11 @@ public class UserList {
 
     public void setBio(String bio) {
         Bio = bio;
+    }
+
+    public String getID() { return ID; }
+
+    public void setID(String id) {
+        this.ID = id;
     }
 }

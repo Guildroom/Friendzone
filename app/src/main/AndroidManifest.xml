@@ -22,6 +22,8 @@
         <activity android:name=".FourthActivity" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivity" />
+        <activity android:name=".AppointmentActivity" />
+        <activity android:name=".DetailAgent" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
